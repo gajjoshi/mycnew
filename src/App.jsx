@@ -1,12 +1,10 @@
 import { useEffect } from 'react'
-
-import Header from './Header'
 import Intro from './Intro'
 import About from './About'
 import Footer from './Footer'
-import Service from './Service'
+import Tape from './Tape'
+
 import { Link, animateScroll as scroll } from 'react-scroll';
-import Contact from './Contact'
 
 function App() {
   const handleScroll = () => {
@@ -35,33 +33,22 @@ function App() {
   }, []);
   return (
     <>
-     <div>
+     <div style={{backgroundColor:'black'}}>
      
-      <Header/>
+      
       <div id='introlink'>
         <Intro/>
       </div>
+      <div style={{paddingTop:"20px"}}> 
+      
+      <Tape/>
+      </div>
+      
+      
       <div id='aboutlink'>
         <About/>
-      </div>
-      {/* <div id='movielink'>
-        <Movies/>
-      </div> */}
-      <div id='servicelink'>
-        <Service/>
-      </div>
-      <div id='contactlink'>
-        <Contact/>
-      </div>
-
-     
-      
-      
-      
-      
+      </div> 
       <Footer/>
-      {/* <Message /> */}
-      
 
      </div>
     </>

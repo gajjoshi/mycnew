@@ -1,0 +1,16 @@
+.text-animation {
+    color: #00fa9a;
+    
+
+    animation: textPulse 2s infinite alternate;
+  }
+  
+  @keyframes textPulse {
+    0% {
+      font-size: 2rem; /* Start size */
+    }
+    100% {
+      font-size: 2.8rem; /* End size */
+    }
+  }
+  

@@ -1,7 +1,15 @@
-.video-container {
+/* intro.css */
+.video-cont {
   position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity */
   z-index: -1;
 }
 
@@ -9,6 +17,20 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  z-index: -1; /* Ensure video is behind other elements */
+}
+
+.bg-image {
+  position: absolute;
+  top: 50px; /* Adjust top position of the image */
+  /* left: 20px;  */
+  width: 100vw; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  padding-left: 10vw;
+  /* background-image: './assets/D247.png';  */
+  color: black;
+  background-size: cover;
+  z-index: 1; /* Ensure the image stays above the video */
 }
 
 .content {
@@ -18,7 +40,7 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 100px;
-  z-index: 1;
+  z-index: 2; /* Ensure content is above the video */
 }
 
 @media (max-width: 768px) {

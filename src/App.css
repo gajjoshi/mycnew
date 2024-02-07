@@ -4,6 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+.tape {
+  height: 10vh; /* 10% of the viewport height */
+  width: 100%;
+  background-color: green;
+  position: fixed; /* Fixed position to stick it to the top */
+  top: 0;
+  left: 0;
+  z-index: 999; /* Ensure it stays above other content */
+}
 
 .logo {
   height: 6em;
