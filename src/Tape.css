@@ -1,5 +1,6 @@
 .text-animation {
-    color: #00fa9a;
+    color: black;
+    font-weight: 700;
     
 
     animation: textPulse 2s infinite alternate;

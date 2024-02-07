@@ -23,11 +23,11 @@
 .bg-image {
   position: absolute;
   top: 50px; /* Adjust top position of the image */
-  /* left: 20px;  */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Move the element back by half of its own width */
   width: 100vw; /* Adjust the width of the image */
   height: auto; /* Maintain aspect ratio */
-  padding-left: 10vw;
-  /* background-image: './assets/D247.png';  */
+  /* background-image: './assets/D247.png'; */
   color: black;
   background-size: cover;
   z-index: 1; /* Ensure the image stays above the video */
