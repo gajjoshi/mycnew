@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div>
       <section id="about" className="md:p-02" style={{alignContent: "center"}}>
-        <div className="border-2 border-white p-10 m-20" style={{alignContent: "center"}}>
+        <div className="border-2 border-white p-3 m-10" style={{alignContent: "center"}}>
           <div className="lg:flex gap-x-10" style={{alignContent: "center"}}>
             <div className="w-full lg:w-2/4 h-full font-bebas" style={{ alignItems: "center" }}>
 
