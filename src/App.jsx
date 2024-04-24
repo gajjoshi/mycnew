@@ -36,13 +36,8 @@ function App() {
      <div style={{backgroundColor:'black'}}>
      
       
-      <div id='introlink'>
-        <Intro/>
-      </div>
-      <div style={{paddingTop:"20px"}}> 
       
-      <Tape/>
-      </div>
+      
       
       
       <div id='aboutlink'>

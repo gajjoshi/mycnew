@@ -2,7 +2,7 @@ import React from 'react';
 import golden from './assets/golden.jpg';
 import { Balcony } from '@mui/icons-material';
 import './Tape.css';
-import photo from './assets/D247.png';
+import photo from './assets/D247a.png';
 
 
 export default function Tape() {
@@ -42,7 +42,7 @@ export default function Tape() {
         <a href="https://wa.link/d247onlinegaming"> 
 
 
-        <img style={{height:"10vh"}} src={photo} alt="Description of the image" />
+        <img style={{height:"20vh"}} src={photo} alt="Description of the image" />
         </a>
         </div>
       </footer>
