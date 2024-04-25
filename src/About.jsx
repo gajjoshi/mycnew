@@ -1,5 +1,4 @@
 import React from "react";
-import "./About.css";
 
 import photo from './assets/mycircle.png';
 import buton from './assets/buton.png'; // Importing the button image
